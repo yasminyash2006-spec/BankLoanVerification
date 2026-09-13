@@ -70,7 +70,7 @@ def result():
 @app.route('/status')
 def status():
    
-    if application_no == "LN2026001":
+    if verification_result =="Original":
         status_text = "Verified"
         loan_status = "Approved"
     else:
